@@ -1,0 +1,88 @@
+@import "./base";
+
+.main {
+  .hero {
+    padding: 100px 0;
+    .container {
+      .row {
+        .main-title {
+          display: flex;
+          justify-content: center;
+          .main-title-text {
+            font-size: 60px;
+            color: crimson;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .questions {
+    .container {
+      .row {
+        .form-container {
+          .form {
+            .question-boxes {
+              .question-box-item {
+                margin-bottom: 20px;
+                .question-text {
+                  font-size: 24px;
+                  font-weight: 600;
+                  margin-bottom: 15px;
+                }
+                .answer-box {
+                  margin-bottom: 4px;
+                  cursor: pointer;
+                  label {
+                    font-size: 20px;
+                    margin-left: 5px;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+          .btn-container {
+            display: flex;
+            justify-content: center;
+            .btn {
+              padding: 8px 20px;
+              cursor: pointer;
+              background-color: rgb(80, 188, 58);
+              border: none;
+              outline: none;
+              border: 2px solid rgb(107, 100, 100);
+              font-size: 16px;
+              color: #fff;
+              border-radius: 4px;
+              transition: background-color 0.3s;
+              width: fit-content;
+              &:hover {
+                background-color: rgb(29, 66, 21);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .result {
+    padding-bottom: 100px;
+    margin-top: -70px;
+    .container {
+      .row {
+        .result-text-container {
+          display: flex;
+          justify-content: center;
+          .result-description {
+            font-size: 30px;
+            .result-text {
+              font-size: 40px;
+              color: green;
+            }
+          }
+        }
+      }
+    }
+  }
+}

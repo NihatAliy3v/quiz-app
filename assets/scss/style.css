@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.main .hero {
+  padding: 100px 0;
+}
+.main .hero .container .row .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .hero .container .row .main-title .main-title-text {
+  font-size: 60px;
+  color: crimson;
+  font-weight: 500;
+}
+.main .questions .container .row .form-container .form .question-boxes .question-box-item {
+  margin-bottom: 20px;
+}
+.main .questions .container .row .form-container .form .question-boxes .question-box-item .question-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.main .questions .container .row .form-container .form .question-boxes .question-box-item .answer-box {
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.main .questions .container .row .form-container .form .question-boxes .question-box-item .answer-box label {
+  font-size: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.main .questions .container .row .form-container .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .questions .container .row .form-container .btn-container .btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: rgb(80, 188, 58);
+  border: none;
+  outline: none;
+  border: 2px solid rgb(107, 100, 100);
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.main .questions .container .row .form-container .btn-container .btn:hover {
+  background-color: rgb(29, 66, 21);
+}
+.main .result {
+  padding-bottom: 100px;
+  margin-top: -70px;
+}
+.main .result .container .row .result-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .result .container .row .result-text-container .result-description {
+  font-size: 30px;
+}
+.main .result .container .row .result-text-container .result-description .result-text {
+  font-size: 40px;
+  color: green;
+}/*# sourceMappingURL=style.css.map */
