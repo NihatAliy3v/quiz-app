@@ -11,8 +11,17 @@ form.addEventListener("submit", (e) => {
       count++;
     }
   });
-  let puan = Math.round((count / trueAnswer.length) * 100);
-  result.innerHTML = `
-  <p class="result-description">sizin puanunuz <span class="result-text">%${puan}</span>-dir</p>
-  `;
+  let point = Math.round((count / trueAnswer.length) * 100);
+  let animationPoint = 0;
+  const animation = setInterval(() => {
+    if (animationPoint == point) {
+      clearInterval(animation);
+    } else {
+      animationPoint++;
+      result.innerHTML = `
+      <p class="result-description">Sizin balınız - <span class="result-text">%${animationPoint}</span></p>
+      `;
+    }
+  }, 100);
+  scrollTo(0, 0);
 });
